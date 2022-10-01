@@ -1,0 +1,27 @@
+.trip-list{
+    width: 480px;
+    margin: 60px auto;;
+    
+}
+.trip-list ul{
+    padding: 0 ;
+}
+.trip-list li{
+    border: 2px solid peachpuff;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 8px 3px 8px plum;
+    border-radius: 9px;
+    list-style-type: none;
+    margin: 30px 0px;
+}
+.trip-list .filters{
+    display: flex;
+    gap: 10px;
+}
+.trip-list button{
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
